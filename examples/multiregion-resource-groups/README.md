@@ -1,5 +1,4 @@
-This example creates 4 resource groups in the canadacentral and canadaeast Azure regions. 
-
+Refer the example source code in GitHub. This example creates 4 resource groups in the canadacentral and canadaeast Azure regions. 
 ---
 ### terraform.plan
 ```

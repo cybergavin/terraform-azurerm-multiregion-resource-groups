@@ -12,7 +12,7 @@ provider "azurerm" {
   features {}
 }
 
-module "resource-group" {
+module "multiregion-resource-groups" {
   source          = "cybergavin/multiregion-resource-groups/azurerm"
   version         = "1.2.0"
   tenant          = var.tenant
