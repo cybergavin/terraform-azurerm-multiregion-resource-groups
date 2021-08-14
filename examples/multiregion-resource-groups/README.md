@@ -1,5 +1,5 @@
 Refer the example source code in GitHub. This example creates 4 resource groups in the canadacentral and canadaeast Azure regions. 
----
+
 ### terraform.plan
 ```
 Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
