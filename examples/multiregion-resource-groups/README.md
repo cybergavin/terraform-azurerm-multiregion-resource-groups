@@ -7,7 +7,7 @@ Terraform used the selected providers to generate the following execution plan. 
 
 Terraform will perform the following actions:
 
-  # module.resource-group.azurerm_resource_group.rg["cg-rg-msad-cc"] will be created
+  # module.multiregion-resource-groups.azurerm_resource_group.rg["cg-rg-msad-cc"] will be created
   + resource "azurerm_resource_group" "rg" {
       + id       = (known after apply)
       + location = "canadacentral"
@@ -21,7 +21,7 @@ Terraform will perform the following actions:
         }
     }
 
-  # module.resource-group.azurerm_resource_group.rg["cg-rg-msad-ce"] will be created
+  # module.multiregion-resource-groups.azurerm_resource_group.rg["cg-rg-msad-ce"] will be created
   + resource "azurerm_resource_group" "rg" {
       + id       = (known after apply)
       + location = "canadaeast"
@@ -35,7 +35,7 @@ Terraform will perform the following actions:
         }
     }
 
-  # module.resource-group.azurerm_resource_group.rg["cg-rg-network-cc"] will be created
+  # module.multiregion-resource-groups.azurerm_resource_group.rg["cg-rg-network-cc"] will be created
   + resource "azurerm_resource_group" "rg" {
       + id       = (known after apply)
       + location = "canadacentral"
@@ -48,7 +48,7 @@ Terraform will perform the following actions:
         }
     }
 
-  # module.resource-group.azurerm_resource_group.rg["cg-rg-network-ce"] will be created
+  # module.multiregion-resource-groups.azurerm_resource_group.rg["cg-rg-network-ce"] will be created
   + resource "azurerm_resource_group" "rg" {
       + id       = (known after apply)
       + location = "canadaeast"
