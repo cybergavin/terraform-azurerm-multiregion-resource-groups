@@ -8,7 +8,7 @@ Create one or more Azure resource groups in one or more Azure regions
 ```
 - Each resource group is represented by a map.
 - Within each resource group map, a tag is represented as another map, wherein you may add/modify/delete any number of tags.
-- In order to apply the same tags across multiple resource groups, use the `global_tags` variable to store such common tags in a map.
+- In order to apply the same tags across multiple resource groups, use the `global-tags` variable to store such common tags in a map.
 
 ### Example:
 

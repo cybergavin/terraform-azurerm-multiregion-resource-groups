@@ -9,7 +9,6 @@ locals {
         rg-name     = var.environment != "" ? format("%s-rg-%s-%s-%s", var.tenant, rg-key, var.environment, region.code) : format("%s-rg-%s-%s", var.tenant, rg-key, region.code)
         rg-tags     = rg.tags
         region-name = region.name
-        region-code = region.code
       }
     ]
   ])
